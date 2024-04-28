@@ -1,0 +1,47 @@
+.secRodape {
+    width: 100%;
+    background-color: #000;
+}
+
+.container_info {
+    color: #fff;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_info h3 {
+    font-size: 18px;
+}
+
+.container_info p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.container_info div {
+    width: 19%;
+    height: 100px;
+}
+
+.autoral {
+    width: 100%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .container_info {
+        flex-direction: column;
+        padding: 80px 0;
+        gap: 30px;
+    }
+
+    .container_info div {
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+}
